@@ -1,0 +1,48 @@
+{
+  "folders": [
+    {
+      "name": "siniestros_test",
+      "description": "prueba de siniestros",
+      "projects": [
+        {
+          "name": "ADWLanding - ADWSqlBi00",
+          "parameters": [
+            {
+              "name": "ConectionString",
+              "container": "ADWLanding - ADWSqlBi00",
+              "value": "#{ConectionString}#",
+              "valueType": "literal"
+            },
+            {
+              "name": "Initialcatalog",
+              "container": "ADWLanding - ADWSqlBi00",
+              "value": "#{DB}#",
+              "valueType": "literal"
+            }
+			,
+            {
+              "name": "Pass",
+              "container": "ADWLanding - ADWSqlBi00",
+              "value": "#{contraseña}#",
+              "valueType": "literal"
+            }
+			,
+            {
+              "name": "ServerName",
+              "container": "ADWLanding - ADWSqlBi00",
+              "value": "#{servidor}#",
+              "valueType": "literal"
+            }
+			,
+            {
+              "name": "User",
+              "container": "ADWLanding - ADWSqlBi00",
+              "value": "#{usuario}#",
+              "valueType": "literal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
